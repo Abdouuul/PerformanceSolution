@@ -33,3 +33,7 @@ You can test the following parameters:
 
 - from: 2021-01-01
 - to: 2021-12-31
+
+<!-- Create a note or desclimer  -->
+
+> **Note:** I wasn't able to run my Performance.Test without generating the nuget.config file at the root of my project
