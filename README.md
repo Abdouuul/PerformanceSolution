@@ -1,17 +1,18 @@
 # FundProcess Technical Test
 
-Goal 🥅:
+Goal:
 
 - Create a reusable service
 - Create unit tests using the service with dependency injection
-- If possible create a web api using this
+- If possible create a web api using this service 
 
 ## Used Dependencies
 
 - XUnit
+- Webapi
 - .NET 9.0.303
 
-## How to run the project 🚀
+## How to run the project
 
 After cloning the repository, run the following commands:
 
@@ -26,9 +27,9 @@ After cloning the repository, run the following commands:
     dotnet run
 ```
 
-You can then test the API endpoint ```/performance``` via Insomnia or Postman with the parameters ```from``` & ```to```
+You can then test the API endpoint ```/performance``` via Insomnia or Postman with the parameters ```from``` & ```to``` via ```GET``` request
 
 You can test the following parameters: 
 
-- from: 2020-01-01
-- to: 2020-01-31
+- from: 2021-01-01
+- to: 2021-12-31
