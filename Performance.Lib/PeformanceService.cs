@@ -24,7 +24,7 @@ public class PerformanceService : IPerformanceService
         double lastValue = filteredData.Last().Item2;
 
         if (firstValue == 0)
-            throw new DivideByZeroException("Impossible de diviser par 0");
+            throw new DivideByZeroException("Zero division not allowed");
 
         return (lastValue / firstValue) - 1;
     
